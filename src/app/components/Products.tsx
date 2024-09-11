@@ -260,7 +260,7 @@ const products: Products[] = [
   {
     id: 16,
     name: "Limpeza técnica do motor",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image16,
     price: "R$ 60",
     oldPrice: "R$ 120",
@@ -273,7 +273,7 @@ const products: Products[] = [
   {
     id: 17,
     name: "Limpeza técnica de chassi",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image17,
     price: "R$ 80",
     oldPrice: "R$ 160",
@@ -286,7 +286,7 @@ const products: Products[] = [
   {
     id: 18,
     name: "Limpeza técnica de rodas e caixas",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image18,
     price: "R$ 40",
     oldPrice: "R$ 80",
@@ -299,7 +299,7 @@ const products: Products[] = [
   {
     id: 19,
     name: "Impermeabilização",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image19,
     price: "R$ 249,90",
     oldPrice: "R$ 400",
@@ -312,7 +312,7 @@ const products: Products[] = [
   {
     id: 20,
     name: "Hidratação de couro",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image20,
     price: "R$ 60",
     oldPrice: "R$ 120",
@@ -325,7 +325,7 @@ const products: Products[] = [
   {
     id: 21,
     name: "Oxi-Sanitização",
-    href: "#vitrificação",
+    href: "#diversos",
     imageSrc: image21,
     price: "R$ 49,90",
     oldPrice: "R$ 100",
