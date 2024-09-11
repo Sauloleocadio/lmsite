@@ -1,10 +1,12 @@
+"use client";
+
 import {
   FloatingButtons,
   Footer,
   Header,
   HeroSection,
   Products,
-  Whyanlm
+  Whyanlm,
 } from "@/app/components";
 import { month } from "@/app/utils/month";
 import Head from "next/head";

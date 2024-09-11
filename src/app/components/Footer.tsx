@@ -1,3 +1,5 @@
+"use client";
+
 import { sendInstagram, sendMaps } from "@/app/utils/sendlinks";
 
 const navigation = {
