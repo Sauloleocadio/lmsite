@@ -3,15 +3,18 @@ import FloatingButtons from "./FloatingButtons";
 import Footer from "./Footer";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+import ModalRoulette from "./ModalRoulette";
 import Products from "./Products";
+import Roulette from "./Roulette";
 import Whyanlm from "./Whyanlm";
 
 export {
-  Drawer, FloatingButtons,
+  Drawer,
+  FloatingButtons,
   Footer,
   Header,
-  HeroSection,
-  Products,
+  HeroSection, ModalRoulette, Products,
+  Roulette,
   Whyanlm
 };
 

@@ -5,6 +5,7 @@ import {
   Footer,
   Header,
   HeroSection,
+  ModalRoulette,
   Products,
   Whyanlm,
 } from "@/app/components";
@@ -15,6 +16,7 @@ import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
     <div className="bg-gray-100 text-gray-800">
+      <ModalRoulette />
       <Toaster />
       <FloatingButtons />
       <Head>

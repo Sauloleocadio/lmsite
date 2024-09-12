@@ -1,7 +1,9 @@
 import toast from "react-hot-toast";
 
-function sendWhatsapp(text: string = "Olá quero conhecer a LM") {
-  return `https://wa.me/send?phone=5585997066104&text=${text}`;
+function sendWhatsapp(text: string = "Olá quero conhecer a LM", isOpen = false) {
+  if (isOpen) {
+    window.open(`https://wa.me/send?phone=5585997066104&text=${text}`);
+  } else return `https://wa.me/send?phone=5585997066104&text=${text}`;
 }
 
 function sendWaze() {
