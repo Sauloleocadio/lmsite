@@ -6,8 +6,12 @@ import {
   DialogPanel,
   DialogTitle,
 } from "@headlessui/react";
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import Roulette from "./Roulette";
+
+const Roulette = dynamic(() => import("./Roulette"), {
+  ssr: false,
+});
 
 export interface PropsData {
   option: string;
