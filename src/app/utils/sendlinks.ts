@@ -5,7 +5,9 @@ function sendWhatsapp(
   isOpen = false
 ) {
   if (isOpen && typeof window !== "undefined") {
-    window.open(`https://wa.me/send?phone=5585997066104&text=${text}`);
+    typeof window !== "undefined"
+      ? window.open(`https://wa.me/send?phone=5585997066104&text=${text}`)
+      : false;
   } else return `https://wa.me/send?phone=5585997066104&text=${text}`;
 }
 

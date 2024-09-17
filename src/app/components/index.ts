@@ -13,7 +13,9 @@ export {
   FloatingButtons,
   Footer,
   Header,
-  HeroSection, ModalRoulette, Products,
+  HeroSection,
+  ModalRoulette,
+  Products,
   Roulette,
   Whyanlm
 };

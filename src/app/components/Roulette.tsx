@@ -2,8 +2,13 @@
 
 import { sendWhatsapp } from "@/app/utils/sendlinks";
 import { Dispatch, SetStateAction } from "react";
-import { Wheel } from "react-custom-roulette";
 import { PropsData } from "./ModalRoulette";
+
+import dynamic from "next/dynamic";
+const Wheel = dynamic(
+  () => import("react-custom-roulette").then((mod) => mod.Wheel),
+  { ssr: false }
+);
 
 type PropsRoulette = {
   mustSpin: boolean;
@@ -27,15 +32,18 @@ export default function Roulette({
         prizeNumber={prizeNumber}
         data={data}
         onStopSpinning={() => {
-          console.log(data[prizeNumber]);
-
           sendWhatsapp(
             `Olá ganhei ${data[prizeNumber].option}, desejo utilizar na minha primeira vez visitando a LM`,
             true
           );
           setMustSpin(false);
           setOpen(false);
-          localStorage.setItem("@CUPOM", `${data[prizeNumber].option}`);
+          typeof window !== "undefined"
+            ? window.localStorage.setItem(
+                "@CUPOM",
+                `${data[prizeNumber].option}`
+              )
+            : false;
         }}
       />
     </>

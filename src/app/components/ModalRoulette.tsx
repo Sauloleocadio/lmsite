@@ -6,12 +6,8 @@ import {
   DialogPanel,
   DialogTitle,
 } from "@headlessui/react";
-import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-
-const Roulette = dynamic(() => import("./Roulette"), {
-  ssr: false,
-});
+import Roulette from "./Roulette";
 
 export interface PropsData {
   option: string;
@@ -58,7 +54,11 @@ const data: PropsData[] = [
 ];
 
 export default function ModalRoulette() {
-  const existsCupom = localStorage.getItem("@CUPOM");
+  const existsCupom =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("@CUPOM")
+      : false;
+
   const [mustSpin, setMustSpin] = useState(false);
   const [prizeNumber, setPrizeNumber] = useState(0);
   const [open, setOpen] = useState(false);
@@ -70,14 +70,10 @@ export default function ModalRoulette() {
       }
     };
 
-    if (typeof window !== "undefined") {
-      window.addEventListener("mousemove", handleMouseMove);
-    }
+    window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      if (typeof window !== "undefined") {
-        window.removeEventListener("mousemove", handleMouseMove);
-      }
+      window.removeEventListener("mousemove", handleMouseMove);
     };
   }, [existsCupom]);
 
@@ -126,6 +122,7 @@ export default function ModalRoulette() {
             </div>
             <div className="mt-5 sm:mt-6">
               <button
+                disabled={mustSpin}
                 type="button"
                 onClick={() => handleSpinClick()}
                 className="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
