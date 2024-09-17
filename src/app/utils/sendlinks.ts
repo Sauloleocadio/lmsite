@@ -6,7 +6,11 @@ function sendWhatsapp(
 ) {
   if (isOpen && typeof window !== "undefined") {
     typeof window !== "undefined"
-      ? window.open(`https://wa.me/send?phone=5585997066104&text=${text}`)
+      ? window.open(
+          `https://wa.me/send?phone=5585997066104&text=${text}`,
+          "_blank",
+          "toolbar=0,location=0,menubar=0"
+        )
       : false;
   } else return `https://wa.me/send?phone=5585997066104&text=${text}`;
 }
