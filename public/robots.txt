@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.lmesteticaautomotiva.com.br/
+
+# Sitemaps
+Sitemap: https://www.lmesteticaautomotiva.com.br/sitemap.xml
