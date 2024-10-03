@@ -1,3 +1,4 @@
+import Analytics from "./Analytics";
 import Drawer from "./Drawer";
 import FloatingButtons from "./FloatingButtons";
 import Footer from "./Footer";
@@ -9,7 +10,7 @@ import Roulette from "./Roulette";
 import Whyanlm from "./Whyanlm";
 
 export {
-  Drawer,
+  Analytics, Drawer,
   FloatingButtons,
   Footer,
   Header,

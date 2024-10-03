@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Analytics,
   FloatingButtons,
   Footer,
   Header,
@@ -16,6 +17,7 @@ import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
     <div className="bg-gray-100 text-gray-800">
+      <Analytics />
       <ModalRoulette />
       <Toaster />
       <FloatingButtons />
