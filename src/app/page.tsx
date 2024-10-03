@@ -27,6 +27,10 @@ export default function Home() {
           name="description"
           content="Serviços de Estética Automotiva de Qualidade"
         />
+        <meta
+          name="google-site-verification"
+          content="3bKQtRLfIQrcaB_pF1KWc1L_E-9BFiyHfxTbY8Mh3-A"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
