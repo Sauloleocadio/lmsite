@@ -12,6 +12,9 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: "LM Estética automotiva",
   description: "Onde cada detalhe importa",
+  verification: {
+    google: "3bKQtRLfIQrcaB_pF1KWc1L_E-9BFiyHfxTbY8Mh3-A",
+  },
 };
 
 export default function RootLayout({
