@@ -8,6 +8,7 @@ import {
   HeroSection,
   ModalRoulette,
   Products,
+  TeamsProducts,
   Whyanlm,
 } from "@/app/components";
 import { month } from "@/app/utils/month";
@@ -57,6 +58,13 @@ export default function Home() {
       <section id="porque" className="py-2 bg-white">
         <div className="container mx-auto text-center">
           <Whyanlm />
+        </div>
+      </section>
+
+      {/* Marcas que impactam nosso dia a dia */}
+      <section id="porque" className="py-2 bg-white">
+        <div className="container mx-auto text-center">
+          <TeamsProducts />
         </div>
       </section>
 

@@ -7,10 +7,12 @@ import HeroSection from "./HeroSection";
 import ModalRoulette from "./ModalRoulette";
 import Products from "./Products";
 import Roulette from "./Roulette";
+import TeamsProducts from "./TeamsProducts";
 import Whyanlm from "./Whyanlm";
 
 export {
-  Analytics, Drawer,
+  Analytics,
+  Drawer,
   FloatingButtons,
   Footer,
   Header,
@@ -18,6 +20,7 @@ export {
   ModalRoulette,
   Products,
   Roulette,
+  TeamsProducts,
   Whyanlm
 };
 
