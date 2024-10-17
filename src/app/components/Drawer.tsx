@@ -58,7 +58,7 @@ export default function Drawer({
                   <div className="divide-y divide-gray-200">
                     <div className="pb-6">
                       <div className="h-24 bg-blue-700 sm:h-20 lg:h-28" />
-                      <div className="-mt-12 flow-root px-4 sm:-mt-8 sm:flex sm:items-end sm:px-6 lg:-mt-16">
+                      <div className="-mt-12 flow-root px-4 sm:-mt-8 sm:flex sm:items-center sm:px-6 lg:-mt-16">
                         <div>
                           <div className="-m-1 flex">
                             <div className="inline-flex overflow-hidden rounded-lg border-4 border-white">
@@ -73,7 +73,7 @@ export default function Drawer({
                           </div>
                         </div>
                         <div className="mt-6 sm:ml-6 sm:flex-1">
-                          <div>
+                          {/* <div>
                             <div className="flex items-center">
                               <h3 className="text-xl font-bold text-gray-900 sm:text-2xl">
                                 a partir {products.price}
@@ -82,7 +82,7 @@ export default function Drawer({
                             <p className="text-sm text-gray-500">
                               {products.observation}
                             </p>
-                          </div>
+                          </div> */}
                           <div className="mt-5 flex flex-wrap space-y-3 sm:space-x-3 sm:space-y-0">
                             <a
                               href={sendWhatsapp(
@@ -116,7 +116,7 @@ export default function Drawer({
                             <p>{products.details}</p>
                           </dd>
                         </div>
-                        <div className="sm:flex sm:px-6 sm:py-5">
+                        {/* <div className="sm:flex sm:px-6 sm:py-5">
                           <dt className="text-sm font-bold text-gray-500 sm:w-40 sm:flex-shrink-0 lg:w-48">
                             Desconto
                           </dt>
@@ -124,7 +124,7 @@ export default function Drawer({
                             o preço antigo era {products.oldPrice} e está com{" "}
                             {products.percentage}
                           </dd>
-                        </div>
+                        </div> */}
                         <div className="sm:flex sm:px-6 sm:py-5">
                           <dt className="text-sm font-bold text-gray-500 sm:w-40 sm:flex-shrink-0 lg:w-48">
                             Oferta
@@ -200,7 +200,8 @@ export default function Drawer({
                           <div>
                             <div className="flex items-center">
                               <h3 className="text-xl font-bold text-gray-900 sm:text-2xl">
-                                a partir {productsWithPromotion.price}
+                                {/* a partir {productsWithPromotion.price} */}
+                                Está com {productsWithPromotion.percentage}
                               </h3>
                             </div>
                             <p className="text-sm text-gray-500">
@@ -247,8 +248,7 @@ export default function Drawer({
                             Desconto
                           </dt>
                           <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:ml-6 sm:mt-0">
-                            o preço antigo era {productsWithPromotion.oldPrice}{" "}
-                            e está com {productsWithPromotion.percentage}
+                            Está com {productsWithPromotion.percentage}
                           </dd>
                         </div>
                         <div className="sm:flex sm:px-6 sm:py-5">

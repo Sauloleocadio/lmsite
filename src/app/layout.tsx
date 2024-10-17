@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
-
 const raleway = Raleway({
   subsets: ["latin"],
   weight: ["400", "100", "300", "900", "700"],
@@ -10,7 +9,8 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "LM Estética automotiva",
+  title:
+    "LM Estética automotiva - Vitrificação, Polimento, Higienização interna, Lavagem detalhada, Micropintura",
   description: "Onde cada detalhe importa",
   verification: {
     google: "3bKQtRLfIQrcaB_pF1KWc1L_E-9BFiyHfxTbY8Mh3-A",

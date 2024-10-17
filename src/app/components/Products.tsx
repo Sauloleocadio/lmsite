@@ -454,12 +454,12 @@ export default function Products({ promotion }: PropsProducts) {
                       <h3 className="text-xl text-gray-900 font-bold">
                         {product.name}
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500 line-through">
+                      {/* <p className="mt-1 text-sm text-gray-500 line-through">
                         de: {product.oldPrice}
                       </p>
                       <p className="mt-1 text-base text-black font-bold">
                         por apenas: {product.price}
-                      </p>
+                      </p> */}
                       <p className="mt-1 text-sm text-green-500 font-semibold">
                         ({product.percentage})
                       </p>
@@ -538,7 +538,7 @@ export default function Products({ promotion }: PropsProducts) {
                     <h3 className="text-xl text-gray-900 font-bold">
                       {product.name}
                     </h3>
-                    <p className="mt-1 text-sm text-gray-500 line-through">
+                    {/* <p className="mt-1 text-sm text-gray-500 line-through">
                       de: {product.oldPrice}
                     </p>
                     <p className="mt-1 text-base text-black font-bold">
@@ -549,7 +549,7 @@ export default function Products({ promotion }: PropsProducts) {
                     </p>
                     <p className="mt-1 text-xs text-gray-500 font-medium">
                       {product.observation}
-                    </p>
+                    </p> */}
                   </div>
                   <div className="absolute inset-x-0 top-0 flex h-72 items-end justify-end overflow-hidden rounded-lg p-4 flex-col">
                     <div
