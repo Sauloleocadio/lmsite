@@ -37,7 +37,7 @@ export default function HeroSection() {
               />
             </svg>
             <rect
-              fill="url(#041aace7-37de-4c0a-a8b0-a6e3b4d44b84)"
+              fill="url(#000000-37de-4c0a-a8b0-a6e3b4d44b84)"
               width="100%"
               height="100%"
               strokeWidth={0}
