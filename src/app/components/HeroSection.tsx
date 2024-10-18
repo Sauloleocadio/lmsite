@@ -52,7 +52,7 @@ export default function HeroSection() {
                 clipPath:
                   "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
               }}
-              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#2a23df] to-[#3a2df6] opacity-30"
+              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#000000] to-[#86817C] opacity-30"
             />
           </div>
           <div className="overflow-hidden">
@@ -63,11 +63,11 @@ export default function HeroSection() {
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                       A Estética automotiva
                     </h1>
-                    <h1 className="text-4xl font-bold tracking-tight text-blue-700 sm:text-5xl">
+                    <h1 className="text-4xl font-bold tracking-tight text-[#86817C] sm:text-5xl">
                       onde cada detalhe importa.
                     </h1>
                   </div>
-                  <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                  <p className="mt-6 text-lg leading-8 text-black sm:max-w-md lg:max-w-none">
                     Seu carro merece o melhor cuidado, e na LM estética
                     automotiva, oferecemos um serviço de excelência, com a
                     transparência que você procura e preços justos que cabem no

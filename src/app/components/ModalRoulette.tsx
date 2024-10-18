@@ -110,7 +110,7 @@ export default function ModalRoulette() {
             <div className="mt-3 text-center sm:mt-5">
               <DialogTitle
                 as="h3"
-                className="text-lg font-semibold leading-6 text-blue-700"
+                className="text-lg font-semibold leading-6 text-green-700"
               >
                 Não saia agora, temos um brinde para você!
               </DialogTitle>
@@ -125,7 +125,7 @@ export default function ModalRoulette() {
                 disabled={mustSpin}
                 type="button"
                 onClick={() => handleSpinClick()}
-                className="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                className="inline-flex w-full justify-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-zinc-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
                 Girar roleta
               </button>

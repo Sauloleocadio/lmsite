@@ -497,7 +497,7 @@ export default function Products({ promotion }: PropsProducts) {
                           promotion: true,
                         })
                       }
-                      className="text-xs font-semibold leading-6 text-blue-700"
+                      className="text-xs font-semibold leading-6 text-[#86817C]"
                     >
                       Ver detalhes do serviço
                     </button>
@@ -581,7 +581,7 @@ export default function Products({ promotion }: PropsProducts) {
                         promotion: false,
                       })
                     }
-                    className="text-xs font-semibold leading-6 text-blue-700"
+                    className="text-xs font-semibold leading-6 text-[#86817C]"
                   >
                     Ver detalhes do serviço
                   </button>

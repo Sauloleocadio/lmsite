@@ -16,7 +16,7 @@ const FloatingButtons: FC = () => {
         href={sendInstagram()}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-800 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
+        className="bg-green-800 text-white p-3 rounded-full shadow-lg hover:bg-green-700"
       >
         <FaInstagram size={24} />
       </a>
@@ -24,7 +24,7 @@ const FloatingButtons: FC = () => {
         href={sendMaps()}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-800 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
+        className="bg-green-800 text-white p-3 rounded-full shadow-lg hover:bg-green-700"
       >
         <FaGoogle size={24} />
       </a>
@@ -32,7 +32,7 @@ const FloatingButtons: FC = () => {
         href={sendWaze()}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-800 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
+        className="bg-green-800 text-white p-3 rounded-full shadow-lg hover:bg-green-700"
       >
         <FaWaze size={24} />
       </a>
@@ -40,7 +40,7 @@ const FloatingButtons: FC = () => {
         href={sendWhatsapp()}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-800 text-white p-3 rounded-full shadow-lg hover:bg-blue-700"
+        className="bg-green-800 text-white p-3 rounded-full shadow-lg hover:bg-green-700"
       >
         <FaWhatsapp size={24} />
       </a>

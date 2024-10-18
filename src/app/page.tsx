@@ -44,7 +44,7 @@ export default function Home() {
       {/* Seção de Serviços */}
       <section id="serviços" className="py-2 bg-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-blue-600">Nossos Serviços</h2>
+          <h2 className="text-4xl font-bold text-black">Nossos Serviços</h2>
           <p className="text-gray-600 mt-4">
             Oferecemos uma gama completa de serviços para manter seu carro
             impecável.
@@ -72,7 +72,7 @@ export default function Home() {
 
       <section id="promoções" className="py-2 bg-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-blue-600">
+          <h2 className="text-4xl font-bold text-black">
             Ofertas do mês de {month}
           </h2>
           <p className="text-gray-600 mt-4">

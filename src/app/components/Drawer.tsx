@@ -46,7 +46,7 @@ export default function Drawer({
                         <button
                           type="button"
                           onClick={() => setOpen(false)}
-                          className="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-blue-500"
+                          className="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-zinc-500"
                         >
                           <span className="absolute -inset-2.5" />
                           <XMarkIcon aria-hidden="true" className="h-6 w-6" />
@@ -57,7 +57,7 @@ export default function Drawer({
                   {/* Main */}
                   <div className="divide-y divide-gray-200">
                     <div className="pb-6">
-                      <div className="h-24 bg-blue-700 sm:h-20 lg:h-28" />
+                      <div className="h-24 bg-black sm:h-20 lg:h-28" />
                       <div className="-mt-12 flow-root px-4 sm:-mt-8 sm:flex sm:items-center sm:px-6 lg:-mt-16">
                         <div>
                           <div className="-m-1 flex">
@@ -170,7 +170,7 @@ export default function Drawer({
                         <button
                           type="button"
                           onClick={() => setOpen(false)}
-                          className="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-blue-500"
+                          className="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-zinc-500"
                         >
                           <span className="absolute -inset-2.5" />
                           <XMarkIcon aria-hidden="true" className="h-6 w-6" />
@@ -181,7 +181,7 @@ export default function Drawer({
                   {/* Main */}
                   <div className="divide-y divide-gray-200">
                     <div className="pb-6">
-                      <div className="h-24 bg-blue-700 sm:h-20 lg:h-28" />
+                      <div className="h-24 bg-black sm:h-20 lg:h-28" />
                       <div className="-mt-12 flow-root px-4 sm:-mt-8 sm:flex sm:items-end sm:px-6 lg:-mt-16">
                         <div>
                           <div className="-m-1 flex">

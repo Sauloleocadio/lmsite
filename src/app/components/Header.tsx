@@ -168,7 +168,7 @@ export default function Header() {
                     <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <item.icon
                         aria-hidden="true"
-                        className="h-6 w-6 text-gray-600 group-hover:text-blue-800"
+                        className="h-6 w-6 text-gray-600 group-hover:text-green-800"
                       />
                     </div>
                     <a
@@ -205,7 +205,7 @@ export default function Header() {
                         ) : (
                           <item.icon
                             aria-hidden="true"
-                            className="h-5 w-5 flex-none text-blue-700"
+                            className="h-5 w-5 flex-none text-green-700"
                           />
                         )}
 
@@ -247,7 +247,7 @@ export default function Header() {
             href={sendWhatsapp("Olá desejo fazer uma avaliação gratuita na LM")}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold leading-6 text-blue-700 items-center flex"
+            className="text-sm font-semibold leading-6 text-green-500 items-center flex"
           >
             <FireIcon
               aria-hidden="true"

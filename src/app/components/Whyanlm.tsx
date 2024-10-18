@@ -66,7 +66,7 @@ export default function Whyanlm() {
         <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Porque escolher
         </p>
-        <p className="mt-2 text-4xl font-bold tracking-tight text-blue-700 sm:text-5xl">
+        <p className="mt-2 text-4xl font-bold tracking-tight text-[#86817C] sm:text-5xl">
           LM Estética Automotiva?
         </p>
       </div>
@@ -93,7 +93,7 @@ export default function Whyanlm() {
             {tier.id === "tier-personal" ? (
               <h3
                 id={tier.id}
-                className="text-lg font-semibold leading-7 text-blue-600"
+                className="text-lg font-semibold leading-7 text-black"
               >
                 {tier.name}
               </h3>
@@ -118,7 +118,7 @@ export default function Whyanlm() {
                   >
                     <CheckIcon
                       aria-hidden="true"
-                      className="h-6 w-5 flex-none text-indigo-600"
+                      className="h-6 w-5 flex-none text-green-600"
                     />
                     {feature}
                   </li>
